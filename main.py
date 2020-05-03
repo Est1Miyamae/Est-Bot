@@ -12,4 +12,4 @@ async def on_message(message):
     if message.content == 'I love you!':
         await channel.send(random.choice(lovecommand).format(message.author.id))
 
-client.run('NzA2NTQ4OTE5Nzg5NjgyNzYx.Xq78Sw.YJqhIIJp3W85NrOYsZaWYXfgl3A')
+client.run('')
